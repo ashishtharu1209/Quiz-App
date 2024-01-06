@@ -18,7 +18,7 @@
     {
       question: "4.What is the largest ocean in the world?",
       options: ["pacific", "Atlantic", "Arctic", "Indian"],
-      correctAnswer: "Pacific"
+      correctAnswer: "pacific"
     }
    
   ];
