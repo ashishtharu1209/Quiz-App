@@ -87,8 +87,11 @@ currentQuestion++;
 if (currentQuestion < quizData.length) {
   loadQuestion();
   resultElement.textContent = "";
-}
-
+} else {
+           result.innerHTML = `
+           <button onclick="location.reload()">Reload</button>
+           `
+       }
 }
 loadQuestion();
 
